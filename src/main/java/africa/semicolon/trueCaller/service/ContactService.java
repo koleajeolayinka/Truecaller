@@ -1,4 +1,10 @@
 package africa.semicolon.trueCaller.service;
 
-public class ContactServices {
+import africa.semicolon.trueCaller.data.models.Contact;
+
+public interface ContactService {
+
+    void addContact(String firstName, String lastName, String phoneNumber);
+
+    Contact findById(int i);
 }
