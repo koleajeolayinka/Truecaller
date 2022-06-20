@@ -5,19 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d6387ec9-f1e8-4680-b416-4c3fffacdbf2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/africa/semicolon/trueCaller/data/models/Contact.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/africa/semicolon/trueCaller/data/repositories/ContactRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/africa/semicolon/trueCaller/data/repositories/ContactRepositoryImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/africa/semicolon/trueCaller/service/ContactService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/africa/semicolon/trueCaller/service/ContactServicesImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/africa/semicolon/trueCaller/data/repositories/ContactRepositoryImplTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/africa/semicolon/trueCaller/service/ContactServicesImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/africa/semicolon/trueCaller/data/models/Contact.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/africa/semicolon/trueCaller/data/models/Contact.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/africa/semicolon/trueCaller/data/repositories/ContactRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/africa/semicolon/trueCaller/data/repositories/ContactRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/africa/semicolon/trueCaller/data/repositories/ContactRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/africa/semicolon/trueCaller/data/repositories/ContactRepositoryImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/africa/semicolon/trueCaller/service/ContactService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/africa/semicolon/trueCaller/service/ContactService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/africa/semicolon/trueCaller/service/ContactServicesImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/africa/semicolon/trueCaller/service/ContactServicesImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/africa/semicolon/trueCaller/data/repositories/ContactRepositoryImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/africa/semicolon/trueCaller/data/repositories/ContactRepositoryImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/africa/semicolon/trueCaller/service/ContactServicesImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/africa/semicolon/trueCaller/service/ContactServicesImplTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,8 +23,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -61,6 +56,9 @@
   }
 }</component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="africa.semicolon.trueCaller.data.repositories" />
+    </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
@@ -69,7 +67,7 @@
       <recent name="africa.semicolon.trueCaller.data.repositories" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ContactServicesImplTest">
+  <component name="RunManager" selected="JUnit.ContactRepositoryImplTest.saveContact_findByIdReturnContact">
     <configuration name="ContactRepositoryImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="trueCaller" />
       <extension name="coverage">
@@ -85,7 +83,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ContactRepositoryImplTest.saveContact_countIsOneTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ContactRepositoryImplTest.Test_Existing_Contact_Can_Be_Deleted" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="trueCaller" />
       <extension name="coverage">
         <pattern>
@@ -95,7 +93,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="africa.semicolon.trueCaller.data.repositories" />
       <option name="MAIN_CLASS_NAME" value="africa.semicolon.trueCaller.data.repositories.ContactRepositoryImplTest" />
-      <option name="METHOD_NAME" value="saveContact_countIsOneTest" />
+      <option name="METHOD_NAME" value="Test_Existing_Contact_Can_Be_Deleted" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -150,11 +148,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ContactRepositoryImplTest.saveContact_findByIdReturnContact" />
+        <item itemvalue="JUnit.ContactRepositoryImplTest.Test_Existing_Contact_Can_Be_Deleted" />
+        <item itemvalue="JUnit.ContactRepositoryImplTest" />
         <item itemvalue="JUnit.ContactServicesImplTest" />
         <item itemvalue="JUnit.ContactServicesImplTest.saveContact_findContactRe" />
-        <item itemvalue="JUnit.ContactRepositoryImplTest" />
-        <item itemvalue="JUnit.ContactRepositoryImplTest.saveContact_countIsOneTest" />
-        <item itemvalue="JUnit.ContactRepositoryImplTest.saveContact_findByIdReturnContact" />
       </list>
     </recent_temporary>
   </component>
@@ -169,6 +167,7 @@
       <workItem from="1655297268432" duration="11168000" />
       <workItem from="1655320604552" duration="4434000" />
       <workItem from="1655326979643" duration="22000" />
+      <workItem from="1655755980670" duration="3329000" />
     </task>
     <servers />
   </component>
@@ -185,6 +184,21 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/africa/semicolon/trueCaller/data/repositories/ContactRepositoryImplTest.java</url>
+          <line>52</line>
+          <properties class="africa.semicolon.trueCaller.data.repositories.ContactRepositoryImplTest" method="Test_Existing_Contact_Can_Be_Deleted">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
