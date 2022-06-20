@@ -19,6 +19,20 @@ public class ContactRepositoryImpl implements   ContactRepository{
     public Contact findById(int id) {
         return contacts.get(id - 1);
     }
+
+    @Override
+    public boolean numberOfDeletedContact(int D) {
+        if (Objects.equals(contacts, true)){
+
+        }
+        return true;
+    }
+
+    @Override
+    public Contact deleteContact(String Number) {
+        return null;
+    }
+
     @Override
     public int count() {
         return contacts.size();

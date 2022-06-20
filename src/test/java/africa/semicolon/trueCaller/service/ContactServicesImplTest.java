@@ -18,7 +18,7 @@ class ContactServicesImplTest {
     }
     @Test
     public void saveContact_findContactRe(){
-        contactService.addContact("tobi", "bool", "1234" );
+        contactService.addContact("tobi", "bool", "1234", true );
         Contact contact = contactService.findById(1);
         assertEquals("tobi", contact.getFirstName());
         assertEquals("bool", contact.getLastName());

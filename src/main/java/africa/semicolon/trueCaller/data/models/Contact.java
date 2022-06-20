@@ -12,4 +12,7 @@ public class Contact {
         private String lastName;
         @NonNull
         private String phoneNumber;
+        @NonNull
+        private boolean DeleteId;
+
 }
