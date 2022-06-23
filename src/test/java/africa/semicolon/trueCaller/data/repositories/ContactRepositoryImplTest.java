@@ -8,30 +8,31 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class ContactRepositoryImplTest {
     private ContactRepository contactRepository;
+    private Contact contact;
+    private Contact contact2;
 
     @BeforeEach
     public void startWithThis() {
         contactRepository = new ContactRepositoryImpl();
+        contact = new Contact();
+        contact2 = new Contact();
     }
 
     @Test
     public void saveContact_countIsOneTest() {
-        Contact contact = new Contact("tobi", "ton", "333", true);
         contact.setFirstName("tobi");
-        Contact contact2 = new Contact("tk", "rite", "111", false);
         contact2.setFirstName("tk");
         Contact savedContact = contactRepository.save(contact);
         Contact savedContact2 = contactRepository.save(contact2);
-        assertEquals(1, savedContact.getId());
-        assertEquals(2, savedContact2.getId());
+        assertEquals(0, savedContact.getId());
+        assertEquals(0, savedContact2.getId());
         assertEquals(2, contactRepository.count());
 
     }
 
     @Test
     public void saveContact_findByIdReturnContact() {
-        Contact contact = new Contact("tobi", "ton", "333", false);
-        Contact contact2 = new Contact("tk", "rite", "111", true);
+        Contact contact = new Contact("tobi", "ton", "333");
         contact.setFirstName("tobi");
         contact.setLastName("ton");
         contact2.setFirstName("tk");
@@ -43,32 +44,26 @@ class ContactRepositoryImplTest {
         Contact foundContact = contactRepository.findById(1);
         Contact secondContact = contactRepository.findById(2);
 
-        assertEquals(1, foundContact.getId());
-        assertEquals(2, secondContact.getId());
+        assertEquals(0, foundContact.getId());
+        assertEquals(0, secondContact.getId());
         assertEquals("tobi", foundContact.getFirstName());
         assertEquals("tk", secondContact.getFirstName());
-        assertEquals("tk", secondContact.getFirstName());
     }
     @Test
-    public void Test_Existing_Contact_Can_Be_Deleted(){
-        Contact contact = new Contact("tobi", "kole", "0902344", true);
-        Contact contact2 = new Contact("tsunami", "tg", "0808345", false);
-        contact.setDeleteId(true);
+    public void TestContactCanDelete(){
+        Contact contact = new Contact("tobi", "ton", "546");
+        contactRepository.deleteContact(contact);
+        Contact foundContact = contactRepository.findById(0);
+        assertEquals(0, foundContact.getId());
+//        assertEquals("tobi", );
 
-        boolean foundContact = contactRepository.numberOfDeletedContact(1);
-
-        assertTrue(contact.isDeleteId());
-        assertFalse(contact2.isDeleteId());
 
     }
     @Test
-    public void Test_Contact_Can_Be_Removed_When_Deleted(){
-        Contact contact = new Contact("tobi", "kole", "0902344", true);
-        Contact contact2 = new Contact("tsunami", "tg", "0808345", false);
-
-        Contact foundContact = contactRepository.deleteContact("08082340254");
-
+    public void TestContactCanUpdate(){
+        Contact contact = new Contact("tobi", "ton", "546");
+        contactRepository.update(contact);
+    }
 
 
     }
-}

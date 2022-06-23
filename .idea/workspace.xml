@@ -4,8 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d6387ec9-f1e8-4680-b416-4c3fffacdbf2" name="Changes" comment="">
+    <list default="true" id="d6387ec9-f1e8-4680-b416-4c3fffacdbf2" name="Changes" comment="xml files">
+      <change afterPath="$PROJECT_DIR$/src/main/java/africa/semicolon/trueCaller/Exception/NoContactException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/africa/semicolon/trueCaller/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/africa/semicolon/trueCaller/controllers/ContactController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/africa/semicolon/trueCaller/controllers/RequestDto.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/africa/semicolon/trueCaller/data/models/Contact.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/africa/semicolon/trueCaller/data/models/Contact.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/africa/semicolon/trueCaller/data/repositories/ContactRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/africa/semicolon/trueCaller/data/repositories/ContactRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/africa/semicolon/trueCaller/data/repositories/ContactRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/africa/semicolon/trueCaller/data/repositories/ContactRepositoryImpl.java" afterDir="false" />
@@ -40,35 +45,51 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
-    &quot;full.screen.before.presentation.mode&quot;: &quot;false&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "full.screen.before.presentation.mode": "false",
+    "last_opened_file_path": "/home/olayinka/IdeaProjects/trueCaller",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "spring.configuration.checksum": "616e11c1df7dd061e1b436af7b29ae86"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="africa.semicolon.trueCaller.service" />
       <recent name="africa.semicolon.trueCaller.data.repositories" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="africa.semicolon.trueCaller" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
       <recent name="africa.semicolon.trueCaller.service" />
       <recent name="africa.semicolon.trueCaller.data.repositories" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ContactRepositoryImplTest.saveContact_findByIdReturnContact">
-    <configuration name="ContactRepositoryImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunAnythingContextRecentDirectoryCache">
+    <option name="paths">
+      <recentPaths value="$PROJECT_DIR$" />
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.Main">
+    <configuration name="ContactRepositoryImplTest.TestContactCanDelete" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="trueCaller" />
       <extension name="coverage">
         <pattern>
@@ -78,12 +99,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="africa.semicolon.trueCaller.data.repositories" />
       <option name="MAIN_CLASS_NAME" value="africa.semicolon.trueCaller.data.repositories.ContactRepositoryImplTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="METHOD_NAME" value="TestContactCanDelete" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ContactRepositoryImplTest.Test_Existing_Contact_Can_Be_Deleted" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ContactRepositoryImplTest.TestContactCanUpdate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="trueCaller" />
       <extension name="coverage">
         <pattern>
@@ -93,7 +115,23 @@
       </extension>
       <option name="PACKAGE_NAME" value="africa.semicolon.trueCaller.data.repositories" />
       <option name="MAIN_CLASS_NAME" value="africa.semicolon.trueCaller.data.repositories.ContactRepositoryImplTest" />
-      <option name="METHOD_NAME" value="Test_Existing_Contact_Can_Be_Deleted" />
+      <option name="METHOD_NAME" value="TestContactCanUpdate" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ContactRepositoryImplTest.saveContact_countIsOneTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="trueCaller" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="africa.semicolon.trueCaller.data.repositories.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="africa.semicolon.trueCaller.data.repositories" />
+      <option name="MAIN_CLASS_NAME" value="africa.semicolon.trueCaller.data.repositories.ContactRepositoryImplTest" />
+      <option name="METHOD_NAME" value="saveContact_countIsOneTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -115,44 +153,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ContactServicesImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Main" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="trueCaller" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="africa.semicolon.trueCaller.Main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="africa.semicolon.trueCaller.service.*" />
+          <option name="PATTERN" value="africa.semicolon.trueCaller.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="africa.semicolon.trueCaller.service" />
-      <option name="MAIN_CLASS_NAME" value="africa.semicolon.trueCaller.service.ContactServicesImplTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ContactServicesImplTest.saveContact_findContactRe" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="trueCaller" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="africa.semicolon.trueCaller.service.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="africa.semicolon.trueCaller.service" />
-      <option name="MAIN_CLASS_NAME" value="africa.semicolon.trueCaller.service.ContactServicesImplTest" />
-      <option name="METHOD_NAME" value="saveContact_findContactRe" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.Main" />
+        <item itemvalue="JUnit.ContactRepositoryImplTest.TestContactCanUpdate" />
+        <item itemvalue="JUnit.ContactRepositoryImplTest.TestContactCanDelete" />
         <item itemvalue="JUnit.ContactRepositoryImplTest.saveContact_findByIdReturnContact" />
-        <item itemvalue="JUnit.ContactRepositoryImplTest.Test_Existing_Contact_Can_Be_Deleted" />
-        <item itemvalue="JUnit.ContactRepositoryImplTest" />
-        <item itemvalue="JUnit.ContactServicesImplTest" />
-        <item itemvalue="JUnit.ContactServicesImplTest.saveContact_findContactRe" />
+        <item itemvalue="JUnit.ContactRepositoryImplTest.saveContact_countIsOneTest" />
       </list>
     </recent_temporary>
   </component>
@@ -167,8 +187,34 @@
       <workItem from="1655297268432" duration="11168000" />
       <workItem from="1655320604552" duration="4434000" />
       <workItem from="1655326979643" duration="22000" />
-      <workItem from="1655755980670" duration="3329000" />
+      <workItem from="1655755980670" duration="3928000" />
+      <workItem from="1655803851558" duration="1869000" />
+      <workItem from="1655852941675" duration="1396000" />
+      <workItem from="1655855504491" duration="612000" />
+      <workItem from="1655891833011" duration="730000" />
+      <workItem from="1655892593746" duration="2186000" />
+      <workItem from="1655905294655" duration="6563000" />
+      <workItem from="1655914054258" duration="67000" />
+      <workItem from="1655914142461" duration="679000" />
+      <workItem from="1655924830217" duration="5905000" />
+      <workItem from="1655957303027" duration="6406000" />
+      <workItem from="1655972089430" duration="11256000" />
     </task>
+    <task id="LOCAL-00001" summary="trueCaller source code">
+      <created>1655759482931</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1655759482931</updated>
+    </task>
+    <task id="LOCAL-00002" summary="xml files">
+      <created>1655759545633</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1655759545633</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -185,23 +231,36 @@
       </map>
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="trueCaller source code" />
+    <MESSAGE value="xml files" />
+    <option name="LAST_COMMIT_MESSAGE" value="xml files" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/test/java/africa/semicolon/trueCaller/data/repositories/ContactRepositoryImplTest.java</url>
-          <line>52</line>
-          <properties class="africa.semicolon.trueCaller.data.repositories.ContactRepositoryImplTest" method="Test_Existing_Contact_Can_Be_Deleted">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="1" />
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/africa/semicolon/trueCaller/data/repositories/ContactRepositoryImpl.java</url>
+          <line>45</line>
+          <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="africa.semicolon.trueCaller.data.models.Contact" memberName="lastName" />
+        <PinnedItemInfo parentTag="africa.semicolon.trueCaller.data.repositories.ContactRepositoryImpl" memberName="contacts" />
+        <PinnedItemInfo parentTag="africa.semicolon.trueCaller.data.repositories.ContactRepositoryImplTest" memberName="contactRepository" />
+      </pinned-members>
+    </pin-to-top-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
     <select />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/trueCaller$ContactServicesImplTest.ic" NAME="ContactServicesImplTest Coverage Results" MODIFIED="1655929100834" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>africa.semicolon.trueCaller.service.*</FILTER>
+    </SUITE>
   </component>
 </project>

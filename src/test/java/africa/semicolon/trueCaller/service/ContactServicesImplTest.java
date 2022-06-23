@@ -17,12 +17,17 @@ class ContactServicesImplTest {
 
     }
     @Test
-    public void saveContact_findContactRe(){
-        contactService.addContact("tobi", "bool", "1234", true );
+    public void saveContact_findContactReturnsContact(){
+        ContactService.addContact("asa", "bool", "1234");
+
         Contact contact = contactService.findById(1);
         assertEquals("tobi", contact.getFirstName());
         assertEquals("bool", contact.getLastName());
         assertEquals("1234", contact.getPhoneNumber());
+    }
+    @Test
+    public void TestContactSearch(){
+
     }
 
 }
